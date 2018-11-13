@@ -1,0 +1,18 @@
+[project]
+name = ""
+version = ""
+lockfileversion = "1"
+ballerinaversion = "0.982.0"
+packages = [ "testServices" ]
+
+[[package]] 
+name = "facilitator"
+
+[[package]] 
+name = "testServices"
+imports = [{org="ballerinax", name="docker",version="0.0.0"},{org="$anon", name="facilitator",version=""}]
+
+[[package]] 
+org = "ballerinax"
+name = "docker"
+
